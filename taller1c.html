@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<!-- http://jsfiddle.net/8o29y7pd/3/ -->
+	<script type="text/javascript" src="codigo.js"></script>
+</head>
+<body style="background-color:#bbccaa;">
+	
+	
+	<div id="container" style="display:flex; flex-direction:row;  justify-content: center;align-items:center; height:660px; border:1px solid black; background-color:#eee;" >
+		<div id="box" style="width: 300px;margin: 5px;text-align: center;">
+				<h3 align="center" style="color:red;">Encuesta Juego</h3>
+				<h3>Edad</h3>
+				<input type="number" id="edad"><br>
+				<h3>Género</h3> <br>
+				<input type="radio" name="genero" value="f" id="f" checked> F(emenio) 
+				<input type="radio" name="genero" value="m" id="m"> M(asculino) <br>
+				<h3>Preferencia</h3>
+					Sin preferencia:<input type="radio" name="tipo" id="sin"><br>
+					Acción-Lucha:<input type="radio" name="tipo" id="aclu"><br>
+					Disparos:<input type="radio" name="tipo" id="di"><br>
+					Estrategia:<input type="radio" name="tipo" id="es"><br>
+					Simulación:<input type="radio" name="tipo" id="si"><br>
+					Deportes:<input type="radio" name="tipo" id="de"><br>
+					Carrera:<input type="radio" name="tipo" id="ca"><br>
+					Aventura:<input type="radio" name="tipo" id="av"><br>
+					Rol:<input type="radio" name="tipo" id="ro">
+				<h3>Consola de juego</h3> 
+				<input type="checkbox" name="consola" id="xbox"> XBOX
+				<br> <input type="checkbox" name="consola" id="ps4"> PS4
+				<br> <input type="checkbox" name="consola" id="nintendo"> Nintendo Switch
+				<br>
+				<p id="estado"></p>
+				<br>
+				<input type="submit" value="Adicionar encuesta" onclick="adicionar()"> 
+				<input type="submit" value="Estadísticas" onclick="estadisticas()">
+		</div>
+			
+		<div id="box" style="width: 300px;margin: 5px;text-align: center;">
+				<h3 align="center" style="color:red;">Estadísticas</h3>
+				<p id="rtas"></p>
+		</div>
+	</div>
+		
+</body>
+</html>

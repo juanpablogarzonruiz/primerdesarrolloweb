@@ -1,0 +1,78 @@
+/*
+body {
+	background-color: powderblue;
+}
+h1   {
+	color: blue;
+}
+
+
+p    {
+	color: red;
+}
+
+#ide    {
+	text-align: center;
+	color: blue;
+}
+
+.grupo1 {
+	color:green;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+}
+
+h6.g2 {
+	color:yellow;
+	font-size: 60px;
+}
+
+h3,h4,h5 {
+	color: orange;
+	text-align:right;
+}
+
+div p{
+	background-color:green;
+	color:white;
+}
+
+a[href="http://unisabana.edu.co"]{
+	background-color:blue;
+}
+
+
+a:hover{
+	background-color:white;
+	color:blue;
+}
+
+
+
+div{
+	background-color:green;
+	color:white;
+	}*/
+
+
+div p{
+	color:red;
+}
+
+div>h1{
+	color:orange;
+}
+
+p+h2{
+	color:yellow;
+}
+
+div h2{
+	color:black;
+}
+
+p~ul{
+	color:blue;
+}
+
+
